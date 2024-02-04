@@ -15,7 +15,7 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v2
         with:
-          node-version: '14'  # Update to the desired Node.js version, e.g., '14'
+          node-version: '20'  # Update to the desired Node.js version, e.g., '16'
 
       - name: Cache dependencies
         uses: actions/cache@v2
